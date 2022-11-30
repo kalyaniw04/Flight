@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-30T17:04:40 IST" name="Default suite" finished-at="2022-11-30T17:05:41 IST" duration-ms="60753">
+    <groups>
+    </groups>
+    <test started-at="2022-11-30T17:04:40 IST" name="Default test" finished-at="2022-11-30T17:05:41 IST" duration-ms="60753">
+      <class name="test_Scripts.Flightscript3">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:test_Scripts.Flightscript3@3c7f66c4]" started-at="2022-11-30T17:04:40 IST" name="beforeSuit" finished-at="2022-11-30T17:04:40 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:test_Scripts.Flightscript3@3c7f66c4]" started-at="2022-11-30T17:04:40 IST" name="browserSetup" finished-at="2022-11-30T17:04:59 IST" duration-ms="19116" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="testString([Ljava.lang.String;)[pri:0, instance:test_Scripts.Flightscript3@3c7f66c4]" started-at="2022-11-30T17:05:01 IST" name="testString" data-provider="testData" finished-at="2022-11-30T17:05:41 IST" duration-ms="39615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@24d61e4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testString -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:test_Scripts.Flightscript3@3c7f66c4]" started-at="2022-11-30T17:05:41 IST" name="CloseApp" finished-at="2022-11-30T17:05:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test_Scripts.Flightscript3@3c7f66c4]" started-at="2022-11-30T17:05:41 IST" name="afterSuite" finished-at="2022-11-30T17:05:42 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test_Scripts.Flightscript3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
